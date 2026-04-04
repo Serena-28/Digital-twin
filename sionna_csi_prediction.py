@@ -221,7 +221,7 @@ np.savez(
     scene_name="munich"
 )
 
-print(f"处理后的数据已保存到: {save_path_processed}")
+print(f"data saved: {save_path_processed}")
 
 mag = np.abs(H_proc)           # (N,K)
 std_mag  = mag.std(axis=1)
