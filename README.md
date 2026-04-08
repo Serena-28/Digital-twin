@@ -14,7 +14,10 @@ The project has **Digital twin simulation** for realistic environment and traffi
 
 ## Data
 The `data/` directory contains datasets used for digital twin experiments and model development, including:
-POWDER traffic data and Sionna data. These datasets support scenario prototyping, traffic modeling, and wireless prediction tasks in realistic digital twin settings.
+- **POWDER traffic data** for traffic analysis
+- **Sionna data** for traffic and CSI prediction analysis
+  
+These datasets support scenario prototyping, traffic modeling, and wireless prediction tasks in realistic digital twin settings.
 
 ## Privacy
 No personally identifiable information (PII) is used in this project. All data is either fully synthetic, or anonymized and aggregated
